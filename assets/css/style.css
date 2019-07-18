@@ -203,11 +203,25 @@ body{
 }
 .leftside{
     width: 753px;
-    min-height: 200px;
     float: left;
-    background-color: #999;
-
 }
+.slideshow{
+    height: 335px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.slideshowarea{
+    height: 335px;
+    width: 100000px;
+}
+.slide{
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .rightside{
     width: 275px;
     min-height: 200px;

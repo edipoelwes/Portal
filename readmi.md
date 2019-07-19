@@ -1,1 +1,1 @@
-criando um portal de noticas.
+criando um portal de noticias.

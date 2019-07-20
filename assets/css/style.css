@@ -222,13 +222,16 @@ body{
 }
 
 .bolinha{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     float: left;
     margin-right: 5px;
     cursor: pointer;
-    background-color: #ccc;
+    background-color: #333;
     border-radius: 10px;
+}
+.bolinha:hover{
+    background-color: #ff0000;
 }
 .slide{
     height: 335px;

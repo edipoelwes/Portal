@@ -362,6 +362,14 @@ body{
     font-size: 30px;
 }
 
+.menumobile{
+    display: none;
+}
+@media only screen and (min-width:1058px){
+    #menu{
+        display: block !important;
+    }
+}
 @media only screen and (min-width:906px) and (max-width:1057px){
     .topoint,
     .topo2int,
@@ -371,6 +379,9 @@ body{
         max-width: 890px;
     }
 
+    #menu{
+        display: block !important;
+    }
     .leftside{
         width: 603px;
     }
@@ -401,6 +412,10 @@ body{
     }
     .topo2 .banner{
         display: none;
+    }
+
+    #menu{
+        display: block !important;
     }
     .topo2int .logo{
         float: none;
@@ -451,7 +466,30 @@ body{
         float: none;
         margin: auto;
     }
-    .menuint,
+    .menuint{
+        max-width: 320px;
+    }
+    .menumobile{
+        display: block;
+    }
+    .menu ul{
+        position: absolute;
+        background-color: #ff0000;
+        z-index: 10;
+        display: none;
+    }
+    .menu li{
+        float: none;
+        height: auto;
+    }
+    .menu li img{
+        display: none;
+    }
+    .submenu{
+        position: static;
+        display: block;
+    }
+
     .ultimasnoticias{
         display: none;
     }

@@ -362,7 +362,7 @@ body{
     font-size: 30px;
 }
 
-@media only screen and (max-width:1057px){
+@media only screen and (min-width:906px) and (max-width:1057px){
     .topoint,
     .topo2int,
     .menuint

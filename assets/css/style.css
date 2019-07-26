@@ -361,3 +361,33 @@ body{
     width: 384px;
     font-size: 30px;
 }
+
+@media only screen and (max-width:1057px){
+    .topoint,
+    .topo2int,
+    .menuint
+    .ultimasnoticiasint,
+    .containerint{
+        max-width: 890px;
+    }
+
+    .leftside{
+        width: 603px;
+    }
+
+    .noticiaarea1{
+        width: 278px;
+    }
+
+    .noticiabig .noticiaimg{
+        width: 245px;
+    }
+    .noticiabig .noticiaimg img{
+        width: 245px;
+    }
+
+    .noticiabig .noticiatitulo{
+        width: 245px;
+        font-size: 25px;
+    }
+}
